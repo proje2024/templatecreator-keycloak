@@ -1,0 +1,48 @@
+.template-details-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.template-details-title {
+    font-size: 34px;   /* İstediğiniz boyutta ayar yapabilirsiniz */
+    color: white;      /* Renk, örneğin beyaz */
+    text-align: center;/* Ortalanmış yazı */
+}
+
+.ant-spin-container {
+    width: 1500px;
+}
+
+.template-detail-actions-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+}
+
+.template-detail-edit-button{
+    padding: 3px;
+}
+
+.template-detail-delete-button{
+    padding: 10px;
+}
+
+.template-detail-delete-button:hover{
+    background-color: #ff4d4f !important;
+    color: #ffffff !important;
+}
+.template-detail-add-new-row-button{
+    margin-left: 40px;
+    background-color: transparent;
+    border: solid 1px #80A4DB;
+    color: #80A4DB;
+    border-radius: 20px;
+}
+
+.search-bar-template-detail {
+    margin-bottom: 20px;
+    width: 700px;
+    border-radius: 20px;
+}
